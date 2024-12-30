@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  list-style: none;
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+  
+}
+body {
+  background-image: url('../src/assets/particle_background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; /* Optional, centers the image */
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
